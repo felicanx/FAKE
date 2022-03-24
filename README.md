@@ -4,6 +4,7 @@ FAKE is a easy and basic recon tool
 #Prerequisites
 1. upgrade python >=3.0.0
 2. upgrade pip
+3. must have nmap installed
 
 [ Installation ] only on linux (CLI)
 1. git clone https://github.com/felicanx/FAKE.git
