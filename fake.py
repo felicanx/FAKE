@@ -42,7 +42,7 @@ for subdomain in subdomains:
 	d1=f"http://{subdomain}.{x.d}"
 	d2=f"https://{subdomain}.{x.d}"
 
-	try:S
+	try:
 		requests.get(d1)
 		file1 = open('subdomain.txt','a')
 		file1.writelines(d1 + "\n")
